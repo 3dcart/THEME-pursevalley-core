@@ -633,7 +633,7 @@ span.freeshipping {
 .products-section h2:after {
 }
 .home-page-content .category-footer {
-    padding: 0px 0 90px;
+    padding: 0px 0 0px;
 }
 .home-page-content .category-footer h3 {
     font-size: 20px;
@@ -1009,4 +1009,9 @@ iframe {
 	.cart-box.fixed-cart-box .cart-box-sticky {
 		max-width: 281px;
 	}
+}
+@media(min-width: 768px) {
+    .revealOnScroll {
+        opacity:0;
+    }
 }
